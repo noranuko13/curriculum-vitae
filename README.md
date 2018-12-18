@@ -32,6 +32,7 @@
   - Python2, Python3
   - Ruby
   - Sass
+  - Visual Basic 6
 
 - マークアップ言語
   - HTML+CSS
