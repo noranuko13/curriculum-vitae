@@ -102,6 +102,9 @@
     - Fallback License 2016.3
   - Visual Studio 2017
 
+- ソフト・ツール
+  - サクラエディタ
+
 - 環境構築
   - Vagrant + VirtualBox
 
