@@ -115,7 +115,7 @@
 
 - IDE
   - IntelliJ IDEA
-    - Fallback License 2016.3
+    - All Products Pack を定期購入
   - Visual Studio 2017
 
 - ソフト・ツール
