@@ -105,6 +105,7 @@
     - アプリやメンバーの種別と権限の管理
     - ローディングメッセージや絵文字などのカスタマイズ
     - IBM CloudとNode-REDによるBot作成
+  - Mattermost
   - Google ハングアウト
 
 - バージョン管理
@@ -114,15 +115,20 @@
     - 初心者対応, マージ事故の処理
 
 - IDE
-  - IntelliJ IDEA
+  - JetBrains IDE
     - All Products Pack を定期購入
   - Visual Studio 2017
 
 - ソフト・ツール
   - サクラエディタ
+  - Clibor
+  - FFFTP
+  - GIMP2
+  - Tera Term
 
 - 環境構築
   - Vagrant + VirtualBox
+  - Docker
 
 - 経験Webサーバ
   - Apache
