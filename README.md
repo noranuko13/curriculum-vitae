@@ -38,6 +38,7 @@
 - プログラミング言語
   - C#
   - JavaScript(ES5, ES6)
+  - Typescript
   - PHP5, PHP7
   - Python2, Python3
   - Ruby
@@ -61,14 +62,9 @@
 #### フレームワーク
 
 - Ruby on Rails 4
-  - 作業時間評価システムの改修
-
 - Symfony 2.7
-  - 勤怠管理システムの機能追加
-
 - ASP.NET MVC 5
-  - 実習管理システムの移行
-
+- Django2
 - Bootstrap3, Bootstrap4
 
 
@@ -92,6 +88,8 @@
   - MySQL
   - Oracle
   - PostgreSQL
+  - DynamoDB
+  - InfluxDB
 
 - プロジェクト管理
   - Redmine
@@ -99,6 +97,7 @@
     - インストール, SlackやGitHubとの連携, Pluginによるカスタマイズ
   - Crowi-Plus
     - ローカル環境導入のみ
+  - Backlog
 
 - コミュニケーションツール
   - Slack
@@ -179,7 +178,7 @@
 ### やったことはないが興味があるもの
 
 - 各種Webフレームワークの業務経験を積みたいです。
-  - Django, Laravel
+  - Laravel
   - React, Vue.js
 - AWSを使用したWebサービス
   - 現在、『ソリューションアーキテクト』取得に向けて勉強中です。
