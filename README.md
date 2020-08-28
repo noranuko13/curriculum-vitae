@@ -46,17 +46,15 @@
 
 - プログラミング言語
   - C#
-  - JavaScript(ES5, ES6)
-  - Typescript
+  - JavaScript(ES5, ES6), Typescript
   - PHP5, PHP7
   - Python2, Python3
   - Ruby
-  - Sass
   - Visual Basic 6
 
 - マークアップ言語
-  - HTML+CSS
-  - HTML5+CSS3
+  - HTML, HTML5
+  - CSS, CSS3, Sass
   - Markdown, Textile
 
 - 言語
@@ -66,15 +64,21 @@
     - 読解：単語の意味を調べながら公式ドキュメントやブログ記事を読むことができる。
     - 作文：文例を調べながら時間をかけて書くレベル。
     - 会話：英会話は苦手。日常会話、ビジネス英会話は厳しい。
+  - 中国語
+    - 翻訳サイトを駆使しつつ意味を察するレベル。
 
 
 #### フレームワーク
 
-- Ruby on Rails 4
-- Symfony 2.7
-- ASP.NET MVC 5
-- Django2
-- Bootstrap3, Bootstrap4
+- Webアプリケーションフレームワーク
+  - Ruby on Rails 4
+  - Symfony 2.7
+  - ASP.NET MVC 5
+  - Django2, Django3
+- CSSフレームワーク
+  - Bootstrap3, Bootstrap4
+  - Bruma
+  - Pure
 
 
 #### その他
@@ -104,9 +108,15 @@
   - Redmine
     - 管理者経験あり
     - インストール, SlackやGitHubとの連携, Pluginによるカスタマイズ
-  - Crowi-Plus
-    - ローカル環境導入のみ
   - Backlog
+
+- Wiki
+  - Crowi-Plus
+  - DokuWiki
+  - PukiWiki
+    - レンタルサーバーへの設置・運用
+    - 定期的なバックアップ設定
+    - 各種カスタマイズ
 
 - コミュニケーションツール
   - Slack
@@ -126,7 +136,7 @@
 - IDE
   - JetBrains IDE
     - All Products Pack を定期購入
-  - Visual Studio 2017
+  - Visual Studio 2017, Code
 
 - ソフト・ツール
   - サクラエディタ
@@ -134,6 +144,13 @@
   - FFFTP
   - GIMP2
   - Tera Term
+
+- スクリプトエンジン
+  - 吉里吉里2
+  - LiveMaker
+  - NScripter
+    - Luaによる拡張, システムカスタマイズ
+  - ティラノスクリプト
 
 - 環境構築
   - Vagrant + VirtualBox
@@ -144,7 +161,7 @@
   - nginx
 
 - 経験OS
-  - Windows 7, 10
+  - Windows 98, XP, Vista, 7, 10
   - Mac OS X
   - CentOS 6, 7
   - Ubuntu
