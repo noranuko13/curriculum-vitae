@@ -42,8 +42,6 @@
 
 ### スキル
 
-#### 言語
-
 - プログラミング言語
   - C#
   - JavaScript(ES5, ES6), Typescript
@@ -67,21 +65,16 @@
   - 中国語
     - 翻訳サイトを駆使しつつ意味を察するレベル。
 
-
-#### フレームワーク
-
 - Webアプリケーションフレームワーク
   - Ruby on Rails 4
   - Symfony 2.7
   - ASP.NET MVC 5
   - Django2, Django3
+
 - CSSフレームワーク
   - Bootstrap3, Bootstrap4
   - Bruma
   - Pure
-
-
-#### その他
 
 - テンプレートエンジン
   - PHP
