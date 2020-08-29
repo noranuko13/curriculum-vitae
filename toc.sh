@@ -6,12 +6,14 @@ min=2
 max=3
 
 ## 見出しレベル入力チェック
-if [ $min -le 0 ] || [ $max -gt 6 ]; then
+if [ $min -le 0 ] || [ $min -gt 6 ]; then
   echo "1 <= min <= 6 (min: ${min})"
+  exit
+fi
+if [ $max -le 0 ] || [ $max -gt 6 ]; then
   echo "1 <= max <= 6 (max: ${max})"
   exit
 fi
-
 
 # 置換パターン
 patterns=(
