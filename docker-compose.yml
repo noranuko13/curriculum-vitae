@@ -1,0 +1,9 @@
+# docker-compose run cv ./curriculum-vitae/toc.sh
+
+version: '3'
+services:
+  cv:
+    container_name: cv
+    build: .
+    volumes:
+      - .:/curriculum-vitae
