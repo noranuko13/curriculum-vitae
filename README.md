@@ -140,7 +140,7 @@
 - スクリプトエンジン
   - 吉里吉里2
   - LiveMaker
-  - NScripter
+  - NScripter, NScripter2
     - Luaによる拡張, システムカスタマイズ
   - ティラノスクリプト
 
