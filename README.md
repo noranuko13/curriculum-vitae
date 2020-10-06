@@ -116,8 +116,8 @@
     - アプリやメンバーの種別と権限の管理
     - ローディングメッセージや絵文字などのカスタマイズ
     - IBM CloudとNode-REDによるBot作成
-  - Mattermost
-  - Google ハングアウト
+  - Chatwork, Mattermost
+  - Google Meet(旧Google ハングアウト), Zoom
 
 - バージョン管理
   - Subversion(TortoiseSVN)
