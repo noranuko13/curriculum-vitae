@@ -148,23 +148,23 @@
   - Vagrant + VirtualBox
   - Docker
 
-- 経験Webサーバ
+- Webサーバ
   - Apache
   - nginx
 
-- 経験OS
+- OS
   - Windows 98, XP, Vista, 7, 10
   - Mac OS X
   - CentOS 6, 7
   - Ubuntu 14.04 LTS 以降
 
-- 経験レンタルサーバー・VPS
+- レンタルサーバー・VPS
   - さくらのレンタルサーバ
   - さくらのVPS
   - ロリポップ！レンタルサーバー
   - スターサーバー
 
-- 経験ブログ
+- ブログ
   - FC2ブログ
     - テンプレートのカスタマイズとレスポンシブ化
   - WordPress
