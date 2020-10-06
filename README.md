@@ -59,16 +59,16 @@
   - Ruby
   - Visual Basic 6
 
-- マークアップ言語
-  - HTML, HTML5
-  - CSS, CSS3, Sass
-  - Markdown, Textile
-
 - Webアプリケーションフレームワーク
   - Ruby on Rails 4
   - Symfony 2.7
   - ASP.NET MVC 5
   - Django2, Django3
+
+- マークアップ言語
+  - HTML, HTML5
+  - CSS, CSS3, Sass
+  - Markdown, Textile
 
 - CSSフレームワーク
   - Bootstrap3, Bootstrap4
