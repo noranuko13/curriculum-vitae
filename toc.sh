@@ -1,5 +1,8 @@
 #!/bin/bash
 
+ set -e
+ set -u
+#set -x
 
 # 見出しレベル
 min=2
