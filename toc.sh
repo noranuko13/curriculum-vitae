@@ -25,20 +25,23 @@ patterns=(
 ## 見出しレベルによる置換パターンの追加
 pattern () {
   indent="\s\s\s"
-  var=`for ((i=0; i < $1; i++)); do echo -n $indent; done`
+  var=$(for ((i=0; i < $1; i++)); do echo -n $indent; done)
   echo "/^${var}\*\s/d"
 }
-for ((i=0; i < $min; i++)); do
-  patterns+=(`pattern $i`)
+for ((i=0; i < min; i++)); do
+  # shellcheck disable=SC2207
+  # https://github.com/koalaman/shellcheck/issues/1476
+  patterns+=($(pattern "$i"))
 done
 for ((i=max+1; i < 7; i++)); do
-  patterns+=(`pattern $i`)
+  # shellcheck disable=SC2207
+  # https://github.com/koalaman/shellcheck/issues/1476
+  patterns+=($(pattern "$i"))
 done
-
 
 # コンソール出力
 tmp=$(mktemp)
-/gh-md-toc /curriculum-vitae/README.md > $tmp
-(for f in "${patterns[@]}" ; do sed -ie $f $tmp; done)
-cat $tmp
+/gh-md-toc /curriculum-vitae/README.md > "$tmp"
+(for f in "${patterns[@]}" ; do sed -ie "$f" "$tmp"; done)
+cat "$tmp"
 rm "$tmp"
