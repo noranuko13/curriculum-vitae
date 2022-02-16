@@ -255,7 +255,7 @@
 #### 【言語・ツール】
 
 - OS
-  - Windows 10 / Mac OS X
+  - Windows 10, Mac OS X
 - 言語
   - PHP7
 - パッケージ
