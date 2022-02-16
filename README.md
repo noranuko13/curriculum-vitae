@@ -59,11 +59,11 @@
   - JavaScript(ES5, ES6), Typescript
   - PHP5, PHP7
   - Python2, Python3
-  - Ruby
+  - Ruby2, Ruby3
   - Visual Basic 6
 
 - Webアプリケーションフレームワーク
-  - Ruby on Rails 4
+  - Ruby on Rails 4, Ruby on Rails 6
   - Symfony 2.7
   - ASP.NET MVC 5
   - Django2, Django3
@@ -82,6 +82,7 @@
   - PHP
     - Smarty
     - Twig
+    - Blade
   - Ruby
     - Haml
     - Liquid
@@ -112,6 +113,7 @@
     - レンタルサーバーへの設置・運用
     - 定期的なバックアップ設定
     - 各種カスタマイズ
+  - GitHub Wiki
 
 - コミュニケーションツール
   - Slack
@@ -119,12 +121,12 @@
     - アプリやメンバーの種別と権限の管理
     - ローディングメッセージや絵文字などのカスタマイズ
     - IBM CloudとNode-REDによるBot作成
-  - Chatwork, Mattermost
+  - Chatwork, Mattermost, LINE WORKS, Microsoft Teams
   - Google Meet(旧Google ハングアウト), Zoom
 
 - バージョン管理
   - Subversion(TortoiseSVN)
-  - Git(GitHub, GitLab, Bitbucket)
+  - Git(GitHub, GitLab, Bitbucket, CodeCommit)
     - git-flow, GitHub Flow, プロジェクトに合ったFlowの構築
     - 初心者対応, マージ事故の処理
 
@@ -213,7 +215,7 @@
 ### やったことはないが興味があるもの
 
 - スキルはあるものの経験年数が少ないWebフレームワークの実務経験を積みたいです。
-  - Laravel, Django, React, Vue.js, Svelte
+  - Django, React, Svelte
   - 経験年数と技術スキルは比例しないというのが私の考えです。  
     しかし『経験年数3年』などの案件もあるのも事実で、選択の幅を広げたいと考えております。
 - 個人開発Webアプリの開発からリリースまでを一人で行えるようになりたいです。
