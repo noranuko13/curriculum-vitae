@@ -26,7 +26,7 @@ patterns=(
 
 ## 見出しレベルによる置換パターンの追加
 pattern () {
-  indent="\s\s\s"
+  indent="\s\s"
   var=$(for ((i=0; i < $1; i++)); do echo -n $indent; done)
   echo "/^${var}\*\s/d"
 }
@@ -46,7 +46,7 @@ patterns+=("s/\*\s/- /")
 
 # コンソール出力
 tmp=$(mktemp)
-/gh-md-toc /curriculum-vitae/README.md > "$tmp"
+/gh-md-toc --indent 2 /curriculum-vitae/README.md > "$tmp"
 (for f in "${patterns[@]}" ; do sed -ie "$f" "$tmp"; done)
 cat "$tmp"
 rm "$tmp"
