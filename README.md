@@ -158,7 +158,7 @@
 
 - OS
   - Windows 98, XP, Vista, 7, 10
-  - Mac OS X
+  - Mac OS X 以降
   - CentOS 6, 7
   - Ubuntu 14.04 LTS 以降
 
