@@ -1,4 +1,4 @@
-# docker compose run cv ./curriculum-vitae/toc.sh
+# docker compose run cv /bin/bash /curriculum-vitae/toc.sh
 
 version: '3'
 services:

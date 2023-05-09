@@ -1,7 +1,7 @@
 # Image
-FROM ubuntu
-RUN apt-get update -qq && apt-get install -y wget curl
+FROM golang:1.20.4
+RUN apt-get update -qq && apt-get install -y wget
 
 # gh-md-toc
-RUN wget https://raw.githubusercontent.com/ekalinin/github-markdown-toc/661b5c5111f47174e2d9092c8d76867e5a1f249d/gh-md-toc
-RUN chmod a+x gh-md-toc
+RUN wget https://github.com/ekalinin/github-markdown-toc.go/releases/download/v1.2.1/gh-md-toc_1.2.1_linux_amd64.tar.gz
+RUN tar xzvf gh-md-toc_1.2.1_linux_amd64.tar.gz
