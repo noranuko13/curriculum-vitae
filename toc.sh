@@ -42,6 +42,9 @@ for ((i=max+1; i < 7; i++)); do
   patterns+=($(pattern "$i"))
 done
 
+# * [アスタリスク]() から - [ハイフン]() への変換
+patterns+=("s/\*\s/- /")
+
 # コンソール出力
 tmp=$(mktemp)
 /gh-md-toc /curriculum-vitae/README.md > "$tmp"
