@@ -30,12 +30,12 @@ pattern () {
   var=$(for ((i=0; i < $1; i++)); do echo -n $indent; done)
   echo "/^${var}\*\s/d"
 }
-for ((i=0; i < min; i++)); do
+for ((i=0; i < min-1; i++)); do
   # shellcheck disable=SC2207
   # https://github.com/koalaman/shellcheck/issues/1476
   patterns+=($(pattern "$i"))
 done
-for ((i=max+1; i < 7; i++)); do
+for ((i=max; i < 7; i++)); do
   # shellcheck disable=SC2207
   # https://github.com/koalaman/shellcheck/issues/1476
   patterns+=($(pattern "$i"))
