@@ -255,13 +255,22 @@
 - OS
   - macOS 12.1, Windows 10
 - 言語
-  - Ruby 2.7, Ruby 3.0
+  - TypeScript
+  - Ruby 2.7, Ruby 3.x
+  - Java 11(Gradle)
+- ライブラリ
+  - jQuery, Font Awesome
+  - Asciidoctor
+  - AWS SDK, Logback, JUnit 5
 - フレームワーク
-  - Rails 6, RSpec 3, Vue.js 2, Bootstrap 4
+  - Vue.js 2, Bootstrap 4
+  - Rails 6, RSpec 3
 - DB
   - PostgreSQL 10
 - その他
-  - Git(GitHub), AWS, Docker, RubyMine, Microsoft Teams
+  - Git(GitHub), Docker, RubyMine, Microsoft Teams
+  - AWS(AWS CLI), Terraform, ecspresso
+  - タイムスタンプサービス, JasperReports, SpotBugs
 
 
 
