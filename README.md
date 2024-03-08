@@ -54,60 +54,70 @@
 ### スキル
 
 - プログラミング言語
-  - C#
-  - JavaScript(ES5, ES6), Typescript
-  - PHP5, PHP7
-  - Python2, Python3
-  - Ruby2, Ruby3
+  - C#, C
+  - JavaScript, Typescript (最新)
+  - PHP 5, PHP 7, PHP 8
+  - Python 2, Python 3
+  - Ruby 2, Ruby 3
   - Visual Basic 6
+  - Java(Amazon Corretto 11)
+  - Go 1.22
+
+- ライブラリ
+  - JavaScript: Vue.js 2, Vue.js 3, React.js 18.2, Vite 5.1
 
 - Webアプリケーションフレームワーク
-  - Ruby on Rails 4, Ruby on Rails 6
-  - Symfony 2.7
-  - ASP.NET MVC 5
-  - Django2, Django3
+  - PHP: Symfony 2.7, Laravel 8.0
+  - Python: Django 2, Django 3
+  - C#: ASP.NET MVC 5
+  - Ruby: Ruby on Rails 4, Ruby on Rails 6, Ruby on Rails 7
 
 - マークアップ言語
-  - HTML, HTML5
-  - CSS, CSS3, Sass
+  - HTML, HTML5, HTML Living Standard
+  - CSS, CSS 3, Sass(SCSS)
   - Markdown, Textile
+  - TeX
+  - XML, XHTML
 
 - CSSフレームワーク
-  - Bootstrap3, Bootstrap4
+  - Bootstrap 3, Bootstrap 4, Bootstrap 5
   - Bruma
-  - Pure
+  - Pure.css
+  - Tailwind CSS
 
 - テンプレートエンジン
-  - PHP
-    - Smarty
-    - Twig
-    - Blade
-  - Ruby
-    - Haml
-    - Liquid
+  - PHP: Smarty, Twig, Blade
+  - Ruby: ERB, Slim, Haml, Liquid, Mustache
 
 - 静的サイトジェネレータ
-  - GitHub Pages
+  - Gatsby, (Next.js)
   - Hugo
-  - Jekyll
+  - Jekyll(GitHub Pages 含む)
     - テンプレートのカスタマイズ, プラグイン作成
 
 - データベース
-  - MySQL
-  - Oracle
-  - PostgreSQL
+  - MySQL 5.7
+  - Oracle 11.2, Oracle 12.1
+  - PostgreSQL 11, PostgreSQL 14, PostgreSQL 16
   - DynamoDB
-  - InfluxDB
+  - InfluxDB v1.1.0
+  - Redis 5
 
 - プロジェクト管理
   - Redmine
     - 管理者経験あり
     - インストール, SlackやGitHubとの連携, Pluginによるカスタマイズ
+    - 過去チケットの調査, トラッカー・カテゴリの整理
+    - GitHub Project からのデータ移行
   - Backlog
 
 - Wiki
   - Crowi-Plus
+    - 個人的な利用に留まる
   - DokuWiki
+    - レンタルサーバーへの設置・運用
+    - 定期的なバックアップ設定
+    - 部分的なGit管理
   - PukiWiki
     - レンタルサーバーへの設置・運用
     - 定期的なバックアップ設定
@@ -120,19 +130,31 @@
     - アプリやメンバーの種別と権限の管理
     - ローディングメッセージや絵文字などのカスタマイズ
     - IBM CloudとNode-REDによるBot作成
-  - Chatwork, Mattermost, LINE WORKS, Microsoft Teams
-  - Google Meet(旧Google ハングアウト), Zoom
+  - Chatwork
+  - Mattermost
+  - LINE WORKS
+  - Microsoft Teams
+  - Google Meet(旧Google ハングアウト)
+  - Zoom
+  - Discord
+    - サーバーの作成と管理
+    - Discord Botの作成と運用
 
 - バージョン管理
-  - Subversion(TortoiseSVN)
   - Git(GitHub, GitLab, Bitbucket, CodeCommit)
-    - git-flow, GitHub Flow, プロジェクトに合ったFlowの構築
+    - git-flow, GitHub Flow, GitLab Flow, GitFeatureFlow
+    - プロジェクトに合ったFlowの構築
     - 初心者対応, マージ事故の処理
+  - Subversion(TortoiseSVN)
 
 - IDE
   - JetBrains IDE
     - All Products Pack を定期購入
-  - Visual Studio 2017, Code
+  - Visual Studio 2017, Visual Studio Code
+  - Eclipse
+  - Android Studio
+  - Atom
+  - Sublime Text
 
 - ソフト・ツール
   - サクラエディタ
@@ -150,11 +172,19 @@
 
 - 環境構築
   - Vagrant + VirtualBox
-  - Docker
+  - Docker, Docker Compose
+  - Bitnami
+  - Ansible
+  - Terraform
+  - AWS CloudFormation
 
 - Webサーバ
   - Apache
   - nginx
+
+- アプリケーションサーバー
+  - Tomcat
+  - Puma
 
 - OS
   - Windows 98, XP, Vista, 7, 10
