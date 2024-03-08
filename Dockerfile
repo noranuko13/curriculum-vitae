@@ -1,5 +1,5 @@
 # Image
-FROM golang:1.20.4
+FROM golang:1.22.1
 RUN apt-get update -qq && apt-get install -y wget
 
 # gh-md-toc
