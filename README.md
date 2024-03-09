@@ -251,6 +251,8 @@
 
 - フロントエンドエンジニアとして
 - バックエンドエンジニアとして
+- リーダーとして
+- インフラエンジニアとして
 
 #### 【プロジェクト概要】
 
@@ -263,15 +265,17 @@
   - 商業施設をグルーピング管理するための仕様変更
   - インボイス制度の実施に伴うシステム改修
   - 決済関連の外部サービス連携機能の実装
+  - 簡易的な突合・消込など会計機能の実装
 - 仕様変更に伴う修正
 - 開発・自動テスト
 - 仕様書・Wikiの整備
 - 各種ライブラリのバージョンアップ
+- デプロイ作業・保守運用
 
 #### 【言語・ツール】
 
 - OS
-  - macOS 12.1, Windows 10
+  - macOS 12, macOS 13, Windows 10
 - 言語
   - TypeScript
   - Ruby 2.7, Ruby 3.x
@@ -284,11 +288,31 @@
   - Vue.js 2, Bootstrap 4
   - Rails 6, RSpec 3
 - DB
-  - PostgreSQL 10
+  - PostgreSQL 10, 14
+  - Redis 5
+- インフラ
+  - AWS CloudFormation
+  - AWS Systems Manager Session Manager, AWS CLI
+  - AWS Fargate, AWS ECS, AWS ECR, ecspresso
+  - AWS パラメータストア, Terraform
+  - AWS S3, AWS SQS(DLQ), AWS Lambda
+  - Amazon ElastiCache
+  - AWS Transfer Family
+  - AWS WAF
 - その他
   - Git(GitHub), Docker, RubyMine, Microsoft Teams
-  - AWS(AWS CLI), Terraform, ecspresso
+  - MailHog, LocalStack
   - タイムスタンプサービス, JasperReports, SpotBugs
+  - Rundeck, CircleCI, Mackerel
+
+#### 【実績・取り組み】
+
+- リーダーとしてアジャイル開発(スクラム, スプリント2習慣)で進行をしています。
+  不明点・問題発生時には随時『井戸端会議』と称した打ち合わせを設け、コミュニケーションによるボトルネックを抑えるようにしています。
+  またスプリントレビューを進行する際は、報連相しやすい雰囲気作り、ちょっとしたことでも話せる空気であるように心がけています。
+- 一部の業務がブラックボックス化しているため、ソースコードやインフラ設定を確認しながらドキュメントに落とし込む作業を進めています。
+- 戦略的に開発を優先した結果、保守業務が滞っているため、各種ライブラリのバージョンアップを勧めています。
+  またこれは実現できるか分かりませんが、データベース設計・クラス設計の見直しも勧めています。
 
 
 
