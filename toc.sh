@@ -15,7 +15,7 @@ patterns+=("s/\*\s/- /")
 
 # コンソール出力
 tmp=$(mktemp)
-./gh-md-toc --indent=2 --start-depth=1 --depth=3 --no-escape /curriculum-vitae/README.md > "$tmp"
+./gh-md-toc --indent=2 --start-depth=1 --depth=3 --no-escape /curriculum-vitae/README.md --token="$GITHUB_TOKEN" > "$tmp"
 (for f in "${patterns[@]}" ; do sed -ie "$f" "$tmp"; done)
 cat "$tmp"
 rm "$tmp"
