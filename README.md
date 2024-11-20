@@ -105,12 +105,12 @@
     - テンプレートのカスタマイズ, プラグイン作成
 
 - データベース
-  - MySQL 5.7
+  - MySQL 5.7, 8
   - Oracle 11.2, Oracle 12.1
   - PostgreSQL 11, PostgreSQL 14, PostgreSQL 16
   - DynamoDB
   - InfluxDB v1.1.0
-  - Redis 5
+  - Redis 5, 6, 7
 
 - プロジェクト管理
   - Redmine
@@ -119,6 +119,7 @@
     - 過去チケットの調査, トラッカー・カテゴリの整理
     - GitHub Project からのデータ移行
   - Backlog
+  - GitHub Projects
 
 - Wiki
   - Crowi-Plus
@@ -197,7 +198,7 @@
 
 - OS
   - Windows 98, XP, Vista, 7, 10
-  - Mac OS X 以降
+  - Mac OS 10 以降
   - CentOS 6, 7
   - Ubuntu 14.04 LTS 以降
 
@@ -206,6 +207,7 @@
   - さくらのVPS
   - ロリポップ！レンタルサーバー
   - スターサーバー
+  - KAGOYA CLOUD VPS
 
 - ブログ
   - FC2ブログ
