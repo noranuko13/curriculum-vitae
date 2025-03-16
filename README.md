@@ -353,6 +353,10 @@
   - MinIO
   - Rundeck, CircleCI, BugSnag
 
+#### 【実績・取り組み】
+
+- -
+
 
 
 
@@ -391,6 +395,10 @@
   - Git(GitHub), Docker, RubyMine, Microsoft Teams
   - MinIO
   - Rundeck, CircleCI, BugSnag
+
+#### 【実績・取り組み】
+
+- -
 
 
 
@@ -432,6 +440,10 @@
   - Git(GitHub), Docker, RubyMine, Microsoft Teams
   - MailHog, MinIO
   - Rundeck, CircleCI, New Relic, BugSnag
+
+#### 【実績・取り組み】
+
+- -
 
 
 
@@ -536,6 +548,10 @@
   - MySQL
 - その他
   - Git(CodeCommit), AWS, Docker, Visual Studio Code, LINE WORKS
+
+#### 【実績・取り組み】
+
+- -
 
 
 
@@ -888,6 +904,8 @@
 - その他
   - Word&Excel
 
+#### 【実績・取り組み】
+
 
 ---
 
@@ -914,6 +932,8 @@
   - HTML+CSS, JavaScript(ES5), PHP
 - その他
   - サクラエディタ
+
+#### 【実績・取り組み】
 
 
 ---
@@ -943,6 +963,8 @@
   - Ruby on Rails 4
 - その他
   - Git(GitLab), Vagrant + VirtualBox
+
+#### 【実績・取り組み】
 
 
 ---
@@ -975,6 +997,8 @@
   - Ruby on Rails 4, Bootstrap3
 - その他
   - Git(GitHub), MySQL, Redmine, Slack, Vagrant + VirtualBox
+
+#### 【実績・取り組み】
 
 
 ---
@@ -1073,6 +1097,10 @@
 - その他
   - GIMP2, Oracle, Word&Excel
 
+#### 【実績・取り組み】
+
+- -
+
 
 ---
 
@@ -1103,3 +1131,7 @@
   - Struts
 - その他
   - GIMP2, PostgreSQL, Word&Excel
+
+#### 【実績・取り組み】
+
+- -
