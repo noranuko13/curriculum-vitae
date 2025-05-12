@@ -1,5 +1,5 @@
 # 1. Generating GitHub access tokens.
-#    https://github.com/settings/tokens?type=beta
+#    https://github.com/settings/personal-access-tokens
 # 2. Set the generated token in .env to GITHUB_TOKEN
 #   cp .env.example .env
 #   GITHUB_TOKEN=github_pat_...
