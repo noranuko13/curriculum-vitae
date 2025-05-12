@@ -61,7 +61,17 @@
   - [2015年04月-2015年06月 自動組版システムの保守](#2015年04月-2015年06月-自動組版システムの保守)
   - [2014年10月-2015年03月 SDNコントローラーの開発](#2014年10月-2015年03月-sdnコントローラーの開発)
 - [個人開発](#個人開発)
+  - [2023年10月-至る現在 Re:VIEWのラッパーライブラリ作成](#2023年10月-至る現在-reviewのラッパーライブラリ作成)
+  - [2019年06月-至る現在 はてなブログテーマストア自動更新ツール](#2019年06月-至る現在-はてなブログテーマストア自動更新ツール)
+  - [2012年04月-至る現在 小説個人サイトの開発・保守](#2012年04月-至る現在-小説個人サイトの開発保守)
+  - [2023年12月-2024年03月 プログラミング講師(静的サイトジェネレーターHugo)](#2023年12月-2024年03月-プログラミング講師静的サイトジェネレーターhugo)
+  - [2022年10月-2023年05月 量産型ミャクミャク様](#2022年10月-2023年05月-量産型ミャクミャク様)
+  - [2021年02月-2023年07月 DiscordBotダイスの駄女神](#2021年02月-2023年07月-discordbotダイスの駄女神)
+  - [2020年05月-2020年08月 電子掲示板まとめ集約サイトの新規開発](#2020年05月-2020年08月-電子掲示板まとめ集約サイトの新規開発)
+  - [2011年06月-2011年06月 FC2ブログテンプレートのカスタマイズ](#2011年06月-2011年06月-fc2ブログテンプレートのカスタマイズ)
 - [キャッチアップ](#キャッチアップ)
+  - [2021年07月-至る現在 Reactチュートリアル](#2021年07月-至る現在-reactチュートリアル)
+  - [2018年07月-至る現在 言語処理100本ノック](#2018年07月-至る現在-言語処理100本ノック)
 
 
 
@@ -102,70 +112,27 @@
 
 ### スキル
 
-- プログラミング言語
-  - Python 2
-  - Go 1.22
-
-- ライブラリ
-  - JavaScript: React.js 18.2, Vite 5.1
-
-- Webアプリケーションフレームワーク
-  - Python: Django 3
-
-- マークアップ言語
-  - HTML
-  - TeX
-
 - CSSフレームワーク
   - Bruma
-  - Pure.css
-  - Tailwind CSS
-
-- テンプレートエンジン
-  - PHP: Smarty
-  - Ruby: Liquid
 
 - 静的サイトジェネレータ
   - Gatsby, (Next.js)
-  - Hugo
-  - Jekyll(GitHub Pages 含む)
-    - テンプレートのカスタマイズ, プラグイン作成
 
 - データベース
   - DynamoDB
 
-- Wiki
-  - DokuWiki
-    - レンタルサーバーへの設置・運用
-    - 定期的なバックアップ設定
-    - 部分的なGit管理
-  - PukiWiki
-    - レンタルサーバーへの設置・運用
-    - 定期的なバックアップ設定
-    - 各種カスタマイズ
-
 - コミュニケーションツール
   - Slack
     - IBM CloudとNode-REDによるBot作成
-  - Discord
-    - サーバーの作成と管理
-    - Discord Botの作成と運用
 
 - バージョン管理
-  - Git(Bitbucket)
+  - Git
     - git-flow, GitHub Flow, GitLab Flow, GitFeatureFlow
     - プロジェクトに合ったFlowの構築
     - 初心者対応, マージ事故の処理
 
 - IDE
   - Android Studio
-
-- ソフト・ツール
-  - サクラエディタ
-  - Clibor
-  - FFFTP
-  - GIMP2
-  - Tera Term
 
 - スクリプトエンジン
   - 吉里吉里2
@@ -175,24 +142,10 @@
   - ティラノスクリプト
 
 - 環境構築
-  - Bitnami
   - Ansible
 
 - レンタルサーバー・VPS
-  - さくらのレンタルサーバ
-  - さくらのVPS
-  - ロリポップ！レンタルサーバー
-  - スターサーバー
   - KAGOYA CLOUD VPS
-
-- ブログ
-  - FC2ブログ
-    - テンプレートのカスタマイズとレスポンシブ化
-  - WordPress
-    - さくらVPS(KUSANAGI)での運用
-    - Bonesを使用したオリジナルテーマの作成
-  - はてなブログ
-    - デザインCSSのカスタマイズ
 
 
 ### 強み
@@ -1244,7 +1197,254 @@ PM開発者間で「言った言わない問題」が発生したため、チャ
 
 ## 個人開発
 
+### 2023年10月-至る現在 Re:VIEWのラッパーライブラリ作成
+
+- [noranuko13/librarian](https://github.com/noranuko13/librarian)
+- [【個人開発】装丁と紙束をRe_VIEWで製本してくれる司書さんを作った - 技術にゃんこの混ぜご飯](https://noranuko13.hatenadiary.jp/entry/2024/02/09/221944)
+
+#### プロジェクト概要
+
+- Re:VIEWを用いてPDFを生成するとき、デザインを使いまわせるようにしたもの。
+
+#### 言語・ツール
+
+- OS
+  - macOS 15
+- 言語
+  - Ruby 3
+  - TeX
+- フレームワーク・ライブラリ
+  - Re:VIEW 5.9, RSpec 3, RuboCop
+- その他
+  - Git(GitHub), Docker, RubyMine
+
+
+---
+
+
+### 2019年06月-至る現在 はてなブログテーマストア自動更新ツール
+
+※セキュリティ・認証周りで詰んだらサポート終了。
+
+- [noranuko13/hatena-theme-base](https://github.com/noranuko13/hatena-theme-base)
+- [【はてなブログ】GitHubにプッシュしたらCircleCIを使ってテーマストアを自動更新する - 技術にゃんこの混ぜご飯](https://noranuko13.hatenadiary.jp/entry/2019/06/27/083119)
+- [【はてなブログ】テーマストア自動更新ツールをアップデートする - 技術にゃんこの混ぜご飯](https://noranuko13.hatenadiary.jp/entry/2021/04/24/142603)
+
+#### プロジェクト概要
+
+- テーマストアにコピペするのが面倒なので自動投稿させるツール。
+
+#### 言語・ツール
+
+- OS
+  - Windows 10
+- 言語
+  - JavaScript, Sass(SCSS)
+- フレームワーク・ライブラリ
+  - Puppeteer, ESLint
+- インフラ
+  - CircleCI
+- その他
+  - Git(GitHub), WebStorm
+
+
+---
+
+
+### 2012年04月-至る現在 小説個人サイトの開発・保守
+
+#### プロジェクト概要
+
+- 略歴
+  - HTML4, CSS, JavaScript の素の静的サイト。ガラケー向けホームページ。
+  - PHPで部分的に再利用可能なテンプレートを作成し始める。
+  - WordPress化したものの、保守・セキュリティ面で疲弊。
+  - Jekyllによる静的サイトに移行。
+  - 現在、速度面でHugoへの移行を検討中。
+- レンタルサーバーの引っ越し・ドメイン移管など一通り経験。
+- 設定資料の管理をPukiWikiからDokuWikiへ移行後、公開。
+
+#### 言語・ツール
+
+- OS
+  - Windows Vista, 7, 10, macOS 14 以降
+- 言語
+  - Ruby 2
+  - PHP 5, 7
+  - HTML4, HTML5, HTML Living Standard
+  - JavaScript, CSS, Sass(SCSS)
+- フレームワーク・ライブラリ
+  - Smarty
+  - Jekyll 4 (Liquid, プラグイン導入)
+  - jQuery, Bootstrap 3, 4
+- DB
+  - MySQL
+- インフラ
+  - さくらのレンタルサーバ
+  - さくらのVPS(KUSANAGI)
+  - ロリポップ！レンタルサーバー
+  - スターサーバー
+- その他
+  - Git(Bitbucket, GitLab), Docker, サクラエディタ, RubyMine, FFFTP, Tera Term
+  - Smarty, WordPress(Bones), Bitnami, PukiWiki, DokuWiki, GIMP2, Google Analytics
+
+
+---
+
+
+### 2023年12月-2024年03月 プログラミング講師(静的サイトジェネレーターHugo)
+
+#### プロジェクト概要
+
+- ココナラにて初心者の質問に回答。
+- 公式ドキュメントを中心にテンプレートの参照順序やその仕組などを説明。
+
+#### 言語・ツール
+
+- OS
+  - Windows 10
+- 言語
+  - Go
+- フレームワーク・ライブラリ
+  - Hugo
+- その他
+  - Docker, GoLand
+
+
+---
+
+
+### 2022年10月-2023年05月 量産型ミャクミャク様
+
+#### プロジェクト概要
+
+- [noranuko13/mpmm](https://github.com/noranuko13/mpmm)
+- [【個人開発】ミャクミャク様っぽい何かを描ける何かを作った - 技術にゃんこの混ぜご飯](https://noranuko13.hatenadiary.jp/entry/2023/06/10/000000)
+
+キャンバス上に描画した部品をドラッグ&ドロップで動かしてミャクミャク様が書ける。
+
+#### 言語・ツール
+
+- OS
+  - Windows 10, macOS 13 以降
+- 言語
+  - TypeScript, HTML5, Sass(SCSS)
+- フレームワーク・ライブラリ
+  - Parcel 2, ESLint, Prettier, Cypress, Stylelint
+  - pngjs, pixelmatch
+- その他
+  - Git(GitHub), WebStorm
+
+
+---
+
+
+### 2021年02月-2023年07月 DiscordBotダイスの駄女神
+
+※Herokuの有料化に伴い休止中。
+
+#### プロジェクト概要
+
+- DiscordでTRPGのダイスを振りたかった。
+  - Rubyで作ってBCDiceを使った方良かったかもしれない。
+
+#### 言語・ツール
+
+- OS
+  - Windows 10
+- 言語
+  - TypeScript
+- フレームワーク・ライブラリ
+  - discord.js, Math.js, ESLint, Mocha
+- その他
+  - Git(GitHub), WebStorm
+  - Discord, Discordサーバー構築
+
+
+---
+
+
+### 2020年05月-2020年08月 電子掲示板まとめ集約サイトの新規開発
+
+#### プロジェクト概要
+
+- 電子掲示板のまとめサイトに不足する機能を追加したもの。
+  - 閲覧しないサイトの除外・タイトルフィルタリング機能など。
+- Heroku Schedulerで定期的にRSSフィードを取得しデータベースへ格納。
+
+#### 言語・ツール
+
+- OS
+  - Windows 10
+- 言語
+  - Python 3
+  - JavaScript, HTML5, Sass(SCSS)
+- フレームワーク・ライブラリ
+  - Django 3, BeautifulSoup 4, Pillow
+  - Pure.css
+- DB
+  - PostgreSQL 13
+- インフラ
+  - Heroku, Cloudinary
+- その他
+  - Git(GitHub), Docker, PyCharm
+
+
+---
+
+
+### 2011年06月-2011年06月 FC2ブログテンプレートのカスタマイズ
+
+#### プロジェクト概要
+
+- 個人ブログのテンプレートをカスタマイズ・レスポンシブ化。
+
+#### 言語・ツール
+
+- OS
+  - Windows Vista, 7
+- 言語
+  - HTML(多言語用変数あり), CSS
+
 
 
 
 ## キャッチアップ
+
+### 2021年07月-至る現在 Reactチュートリアル
+
+- [noranuko13/tic-tac-toe-reactjs](https://github.com/noranuko13/tic-tac-toe-reactjs)
+- [【自己学習】Reactチュートリアルを飽きるまでちまちまいじるだけ - 技術にゃんこの混ぜご飯](https://noranuko13.hatenadiary.jp/entry/2023/07/14/000000)
+
+React.jsの基本的な使い方を学べる公式の学習コンテンツ。
+
+#### 言語・ツール
+
+- OS
+  - Windows 10
+- 言語
+  - TypeScript, HTML Living Standard, Sass(SCSS)
+- フレームワーク・ライブラリ
+  - React.js 17, 18, Vite 5, ESLint, Prettier, Jest, Vitest
+  - Tailwind CSS
+- その他
+  - Git(GitHub)
+
+
+---
+
+
+### 2018年07月-至る現在 言語処理100本ノック
+
+- [noranuko13/nlp100-python](https://github.com/noranuko13/nlp100-python)
+
+自然言語処理の基礎から応用までを、100問の課題を通して段階的に学べる実践型のトレーニング教材。
+
+#### 言語・ツール
+
+- OS
+  - Windows 10, Mac OS 15
+- 言語
+  - Python 3
+- その他
+  - Git(GitHub), Docker, GitHub Projects
