@@ -101,40 +101,27 @@
 ### スキル
 
 - プログラミング言語
-  - C#, C
-  - JavaScript, Typescript (最新)
-  - PHP 5, PHP 7, PHP 8
-  - Python 2, Python 3
-  - Ruby 2, Ruby 3
-  - Visual Basic 6
-  - Java(Amazon Corretto 11)
+  - Python 2
   - Go 1.22
 
 - ライブラリ
-  - JavaScript: Vue.js 2, Vue.js 3, React.js 18.2, Vite 5.1
+  - JavaScript: React.js 18.2, Vite 5.1
 
 - Webアプリケーションフレームワーク
-  - PHP: Symfony 2.7, Laravel 8.0
-  - Python: Django 2, Django 3
-  - C#: ASP.NET MVC 5
-  - Ruby: Ruby on Rails 4, Ruby on Rails 6, Ruby on Rails 7
+  - Python: Django 3
 
 - マークアップ言語
-  - HTML, HTML5, HTML Living Standard
-  - CSS, CSS 3, Sass(SCSS)
-  - Markdown, Textile
+  - HTML
   - TeX
-  - XML, XHTML
 
 - CSSフレームワーク
-  - Bootstrap 3, Bootstrap 4, Bootstrap 5
   - Bruma
   - Pure.css
   - Tailwind CSS
 
 - テンプレートエンジン
-  - PHP: Smarty, Twig, Blade
-  - Ruby: ERB, Slim, Haml, Liquid, Mustache
+  - PHP: Smarty
+  - Ruby: Liquid
 
 - 静的サイトジェネレータ
   - Gatsby, (Next.js)
@@ -143,25 +130,9 @@
     - テンプレートのカスタマイズ, プラグイン作成
 
 - データベース
-  - MySQL 5.7, 8
-  - Oracle 11.2, Oracle 12.1
-  - PostgreSQL 11, PostgreSQL 14, PostgreSQL 16
   - DynamoDB
-  - InfluxDB v1.1.0
-  - Redis 5, 6, 7
-
-- プロジェクト管理
-  - Redmine
-    - 管理者経験あり
-    - インストール, SlackやGitHubとの連携, Pluginによるカスタマイズ
-    - 過去チケットの調査, トラッカー・カテゴリの整理
-    - GitHub Project からのデータ移行
-  - Backlog
-  - GitHub Projects
 
 - Wiki
-  - Crowi-Plus
-    - 個人的な利用に留まる
   - DokuWiki
     - レンタルサーバーへの設置・運用
     - 定期的なバックアップ設定
@@ -170,39 +141,22 @@
     - レンタルサーバーへの設置・運用
     - 定期的なバックアップ設定
     - 各種カスタマイズ
-  - GitHub Wiki
 
 - コミュニケーションツール
   - Slack
-    - 管理者経験あり
-    - アプリやメンバーの種別と権限の管理
-    - ローディングメッセージや絵文字などのカスタマイズ
     - IBM CloudとNode-REDによるBot作成
-  - Chatwork
-  - Mattermost
-  - LINE WORKS
-  - Microsoft Teams
-  - Google Meet(旧Google ハングアウト)
-  - Zoom
   - Discord
     - サーバーの作成と管理
     - Discord Botの作成と運用
 
 - バージョン管理
-  - Git(GitHub, GitLab, Bitbucket, CodeCommit)
+  - Git(Bitbucket)
     - git-flow, GitHub Flow, GitLab Flow, GitFeatureFlow
     - プロジェクトに合ったFlowの構築
     - 初心者対応, マージ事故の処理
-  - Subversion(TortoiseSVN)
 
 - IDE
-  - JetBrains IDE
-    - All Products Pack を定期購入
-  - Visual Studio 2017, Visual Studio Code
-  - Eclipse
   - Android Studio
-  - Atom
-  - Sublime Text
 
 - ソフト・ツール
   - サクラエディタ
@@ -219,20 +173,8 @@
   - ティラノスクリプト
 
 - 環境構築
-  - Vagrant + VirtualBox
-  - Docker, Docker Compose
   - Bitnami
   - Ansible
-  - Terraform
-  - AWS CloudFormation
-
-- Webサーバ
-  - Apache
-  - nginx
-
-- アプリケーションサーバー
-  - Tomcat
-  - Puma
 
 - レンタルサーバー・VPS
   - さくらのレンタルサーバ
@@ -303,9 +245,10 @@
   - macOS 15
 - 言語
   - Ruby 3
-  - JavaScript
+  - HTML Living Standard, JavaScript, Sass(SCSS)
+  - Markdown
 - フレームワーク・ライブラリ
-  - Rails 6, RSpec 3
+  - Rails 6 (Slim), RSpec 3
   - Vue.js 3
 - DB
   - MySQL 8
@@ -313,7 +256,7 @@
 - インフラ
   - AWS
 - その他
-  - Git(GitHub), Docker, RubyMine, Slack
+  - Git(GitHub), Docker, RubyMine, Slack, GitHub Projects, Google Meet
   - GitHub Actions, CircleCI, BugSnag, New Relic
 
 #### 実績・取り組み
@@ -361,23 +304,25 @@
 - OS
   - macOS 12, macOS 13
 - 言語
-  - JavaScript
-  - Ruby 3.x
+  - HTML Living Standard, JavaScript, Sass(SCSS)
+  - Ruby 3
+  - Markdown
 - フレームワーク・ライブラリ
   - Bootstrap 5
-  - Rails 7, RSpec 3
+  - Rails 7 (Slim), RSpec 3
 - DB
   - PostgreSQL 14
   - Redis 6
 - インフラ
   - Heroku
 - その他
-  - Git(GitHub), Docker, RubyMine, Microsoft Teams
+  - Git(GitHub), Docker, RubyMine, Microsoft Teams, GitHub Projects, Redmine
   - MinIO
   - Rundeck, CircleCI, BugSnag
 
 #### 実績・取り組み
 
+当該プロジェクトでは、前任者の判断でGitHub Projectsが導入されていました。しかし経営層や営業メンバーはGitHubアカウントを持っておらず、進捗を確認できない状況が続いていました。同社の他プロジェクトでRedmineが使われており、そちらでの情報共有が一般的でした。関係者間での認識ずれや情報分断を避けるため、Redmineへのデータ移行を行いました。
 
 
 #### 特筆事項
@@ -407,25 +352,27 @@
 - OS
   - macOS 12, macOS 13
 - 言語
-  - JavaScript
-  - Ruby 3.x
+  - HTML Living Standard, JavaScript, Sass(SCSS)
+  - Ruby 3
+  - Markdown
 - ライブラリ
   - jQuery, Knockout.js, Chart.js
 - フレームワーク・ライブラリ
   - Bootstrap 3
-  - Rails 6, RSpec 3
+  - Rails 6 (Slim), RSpec 3
 - DB
   - PostgreSQL 15
   - Redis 3
 - インフラ
   - Heroku
 - その他
-  - Git(GitHub), Docker, RubyMine, Microsoft Teams
+  - Git(GitHub), Docker, RubyMine, Microsoft Teams, Redmine
   - MinIO
   - Rundeck, CircleCI, BugSnag
 
 #### 実績・取り組み
 
+プロジェクトの実態に合わせて、過去チケットの調査と正規化（カテゴリやトラッカーの統一・整理）を行いました。バージョンとカテゴリの混同・トラッカーとカテゴリの混同など、いわゆるEAVアンチパターンを解消しました。またWikiに記載すべき情報が書かれたまま完了にできないチケットがあったため、チケットとWikiの役割を明文化・適宜移動しました。
 
 
 #### 特筆事項
@@ -457,20 +404,21 @@
 - OS
   - macOS 12, macOS 13
 - 言語
-  - TypeScript
-  - Ruby 3.x
+  - TypeScript, HTML Living Standard, Sass(SCSS)
+  - Ruby 3
+  - Markdown
 - ライブラリ
   - jQuery, C3.js, Knockout.js, webpack
 - フレームワーク・ライブラリ
   - Bootstrap 3
-  - Rails 6, RSpec 3
+  - Rails 6 (Slim), RSpec 3
 - DB
   - PostgreSQL 13
   - Redis 6
 - インフラ
   - Heroku
 - その他
-  - Git(GitHub), Docker, RubyMine, Microsoft Teams
+  - Git(GitHub), Docker, RubyMine, Microsoft Teams, Obsidian
   - MailHog, MinIO
   - Rundeck, CircleCI, New Relic, BugSnag
 
@@ -502,29 +450,35 @@
 - 基本設計・詳細設計
   - 商業施設をグルーピング管理するための仕様変更
   - インボイス制度の実施に伴うシステム改修
-  - 決済関連の外部サービス連携機能の実装
-  - 簡易的な突合・消込など会計機能の実装
+  - 決済関連の外部サービス連携機能
+  - 簡易的な突合・消込など会計機能
+  - クラウド型POSシステム連携機能
 - 仕様変更に伴う修正
 - 開発・自動テスト
 - 仕様書・Wikiの整備
 - 各種ライブラリのバージョンアップ
 - デプロイ作業・保守運用
+  - Vue.js 2からVue.js 3への移行調査
+  - AWS RDSの証明書更新・バージョンアップ
+  - CFnによるリソース追加・変更
 
 #### 言語・ツール
 
 - OS
   - macOS 12, macOS 13, Windows 10
 - 言語
-  - TypeScript
-  - Ruby 2.7, Ruby 3.x
-  - Java 11(Gradle)
+  - TypeScript, HTML Living Standard, Sass(SCSS)
+  - Ruby 2, Ruby 3
+  - Java SE 11
+  - Markdown
 - ライブラリ
   - jQuery, Font Awesome
   - Asciidoctor
-  - AWS SDK, Logback, JUnit 5
+  - AWS SDK, Logback, Gradle, JUnit 5
+  - OpenAPI 3 (Mustache)
 - フレームワーク・ライブラリ
-  - Vue.js 2, Bootstrap 4
-  - Rails 6, RSpec 3
+  - Vue.js 2, Vue.js 3, Bootstrap 4
+  - Rails 6 (Slim), RSpec 3
 - DB
   - PostgreSQL 10, 14
   - Redis 5
@@ -537,6 +491,7 @@
   - Amazon ElastiCache
   - AWS Transfer Family
   - AWS WAF
+  - nginx, Puma
 - その他
   - Git(GitHub), Docker, RubyMine, Microsoft Teams
   - MailHog, LocalStack
@@ -550,6 +505,8 @@
 一部の業務がブラックボックス化しているため、ソースコードやインフラ設定を確認しながらドキュメントに落とし込む作業を進めました。また各製品の進捗・メンバーアサイン状況の把握が行えるよう、Redmineへの情報集約・チケットの正規化を進めました。
 
 戦略的に開発を優先した結果、保守業務が滞っているため、各種ライブラリのバージョンアップを進めました。
+
+クラウド型POSシステム連携において、OpenAPI Specification からのコード自動生成および Mustache テンプレートの部分的なカスタマイズを行い、アップデート手順の整備を行いました。
 
 #### 特筆事項
 
@@ -582,6 +539,8 @@
   - Windows 10
 - 言語
   - PHP 8
+  - HTML Living Standard, JavaScript, Sass(SCSS)
+  - Markdown
 - フレームワーク・ライブラリ
   - Laravel 8 (Blade)
 - ライブラリ
@@ -635,7 +594,9 @@
 - OS
   - Windows 10, Mac OS X
 - 言語
-  - PHP7
+  - PHP 7
+  - JavaScript, HTML5, CSS, CSS3, Sass(SCSS)
+  - Markdown, Backlog記法
 - パッケージ
   - EC-CUBE3, EC-CUBE4
 - その他
@@ -679,7 +640,7 @@ Gitがバックアップツールとしてしか機能していないプロジ�
 - CMS
   - WordPress 5
 - その他
-  - Googleドライブ, Googleドキュメント, Googleスプレッドシート
+  - Googleドライブ, Googleドキュメント, Googleスプレッドシート, Chatwork, Zoom
   - Office 365(Word・Excel)
   - Docker, 実機のLinuxディストリビューション
   - サクラエディタ
@@ -717,12 +678,12 @@ Gitがバックアップツールとしてしか機能していないプロジ�
 - OS
   - Windows 10
 - 言語
-  - PHP7
+  - PHP 7
 - フレームワーク・ライブラリ
   - league/csv 9
   - fzaninotto/faker 1.8
 - その他
-  - Git, Docker
+  - Git, Docker, PhpStorm, Mattermost
 
 #### 実績・取り組み
 
@@ -763,13 +724,15 @@ Gitがバックアップツールとしてしか機能していないプロジ�
 - OS
   - Windows 10
 - 言語
-  - TypeScript 3
+  - TypeScript 3, HTML5, Sass(SCSS)
+  - Textile
 - フレームワーク・ライブラリ
   - Angular 8
     - PrimeNG
     - Akita (@datorama/akita)
 - その他
-  - OpenAPI 3, Git(GitLab), Redmine, Docker
+  - OpenAPI 3 (Mustache), Git(GitLab), Redmine, Docker, IntelliJ IDEA
+  - Wiki(Crowi-Plus), Mattermost
 
 #### 実績・取り組み
 
@@ -807,13 +770,15 @@ PM開発者間で「言った言わない問題」が発生したため、チャ
 - OS
   - Windows 10
 - 言語
-  - Python 3.5
+  - Python 3
+  - JavaScript, HTML5, CSS
+  - Backlog記法
 - フレームワーク・ライブラリ
-  - Django2, Bootstrap3
+  - Django 2, Bootstrap 3
 - DB
-  - MySQL, InfluxDB
+  - MySQL, InfluxDB 1
 - その他
-  - Git, Backlog, Office 365, Docker
+  - Git, Backlog, Office 365, Docker, PyCharm
 
 #### 実績・取り組み
 
@@ -859,7 +824,7 @@ PM開発者間で「言った言わない問題」が発生したため、チャ
 - DB
   - Oracle
 - その他
-  - Subversion(TortoiseSVN)
+  - Subversion(TortoiseSVN), サクラエディタ
 
 #### 実績・取り組み
 
@@ -897,12 +862,14 @@ PM開発者間で「言った言わない問題」が発生したため、チャ
   - Windows 10
 - 言語
   - C#
+  - JavaScript, HTML5, CSS
+  - Textile
 - フレームワーク・ライブラリ
   - ASP.NET MVC 5, Bootstrap3
 - DB
   - Oracle
 - その他
-  - Git(GitLab), Jenkins, Redmine, Slack
+  - Git(GitLab), Jenkins, Redmine, Slack, Visual Studio 2017
 
 #### 実績・取り組み
 
@@ -911,6 +878,8 @@ PM開発者間で「言った言わない問題」が発生したため、チャ
 開発用Wikiの更新、開発フェーズ毎のチケット進捗率のルールなどの決めを行いました。これにより現在どの画面が開発中か、確認待ちかなどが明確になり、チーム全体の状況が把握しやすくなりました。
 
 マージリクエストの指導を行うと共に、レビュアーとしてコードレビューを行いました。
+
+またほぼ同時期にSlack管理者として、アプリの管理・メンバーの権限設定・絵文字などのカスタマイズを実施しました。
 
 #### 特筆事項
 
@@ -942,13 +911,15 @@ PM開発者間で「言った言わない問題」が発生したため、チャ
 - OS
   - Mac OS X
 - 言語
-  - PHP7
+  - PHP 7
+  - JavaScript, HTML5, CSS
+  - Textile
 - フレームワーク・ライブラリ
-  - Symfony 2.7, PHPUnit, Bootstrap3
+  - Symfony 2.7 (Twig), PHPUnit, Bootstrap3
 - DB
   - PostgreSQL
 - その他
-  - Git(GitBucket), Google Docs, Jenkins, Redmine, Slack
+  - Git(GitBucket), Google Docs, Jenkins, Redmine, Slack, Sublime Text, Atom
 
 #### 実績・取り組み
 
@@ -983,8 +954,10 @@ PM開発者間で「言った言わない問題」が発生したため、チャ
 
 - OS
   - Windows 7
+- 言語
+  - Textile
 - その他
-  - Word&Excel
+  - Redmine, Word, Excel
 
 #### 実績・取り組み
 
@@ -1017,7 +990,8 @@ PM開発者間で「言った言わない問題」が発生したため、チャ
 - OS
   - Windows 7
 - 言語
-  - HTML+CSS, JavaScript(ES5), PHP
+  - HTML5, JavaScript(ES5), CSS
+  - PHP 5
 - その他
   - サクラエディタ
 
@@ -1052,11 +1026,12 @@ PM開発者間で「言った言わない問題」が発生したため、チャ
 - OS
   - Red Hat, Windows 7
 - 言語
-  - Ruby
+  - Ruby 2
+  - Textile
 - フレームワーク・ライブラリ
-  - Ruby on Rails 4
+  - Ruby on Rails 4 (Haml)
 - その他
-  - Git(GitLab), Vagrant + VirtualBox
+  - Git(GitLab), Vagrant + VirtualBox, Apache
 
 #### 実績・取り組み
 
@@ -1092,14 +1067,17 @@ PM開発者間で「言った言わない問題」が発生したため、チャ
 - OS
   - CentOS 6, Windows 10
 - 言語
-  - Ruby
+  - Ruby 2
+  - JavaScript, HTML5, CSS
+  - Textile
 - フレームワーク・ライブラリ
-  - Ruby on Rails 4, Bootstrap3
+  - Ruby on Rails 4 (Haml), Bootstrap3
 - その他
   - Git(GitHub), MySQL, Redmine, Slack, Vagrant + VirtualBox
 
 #### 実績・取り組み
 
+本案件において新規にRedmineを立てる必要があったため、管理者としてインストールから運用までを担当しました。SlackやGitHubとの連携設定、プラグインを利用したカスタマイズなども行いました。
 
 
 #### 特筆事項
@@ -1132,9 +1110,10 @@ PM開発者間で「言った言わない問題」が発生したため、チャ
 - OS
   - Windows 7
 - 言語
-  - PHP
+  - PHP 5
+  - JavaScript, HTML5, CSS
 - その他
-  - Oracle, Word&Excel, Skype
+  - Oracle, Word, Excel, Skype
 
 #### 実績・取り組み
 
@@ -1171,9 +1150,11 @@ PM開発者間で「言った言わない問題」が発生したため、チャ
 - OS
   - Windows 7
 - 言語
-  - PHP
+  - PHP 5
+  - JavaScript, HTML5, CSS
+  - Textile
 - その他
-  - MySQL, Redmine, Skype, Word&Excel
+  - MySQL, Redmine, Skype, Word, Excel
 
 #### 実績・取り組み
 
@@ -1207,7 +1188,7 @@ PM開発者間で「言った言わない問題」が発生したため、チャ
 - OS
   - Windows 7
 - その他
-  - GIMP2, Oracle, Word&Excel
+  - GIMP2, Oracle, Word, Excel
 
 #### 実績・取り組み
 
@@ -1242,11 +1223,11 @@ PM開発者間で「言った言わない問題」が発生したため、チャ
 - OS
   - CentOS 6, Windows 7
 - 言語
-  - HTML5+CSS3, Java, JavaScript(ES5)
+  - HTML5, CSS3, Java SE 8, JavaScript
 - フレームワーク・ライブラリ
   - Struts
 - その他
-  - GIMP2, PostgreSQL, Word&Excel
+  - Tomcat, Eclipse, GIMP2, PostgreSQL, Word, Excel
 
 #### 実績・取り組み
 
