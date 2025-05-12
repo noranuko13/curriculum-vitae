@@ -363,7 +363,7 @@
 - 言語
   - JavaScript
   - Ruby 3.x
-- フレームワーク
+- フレームワーク・ライブラリ
   - Bootstrap 5
   - Rails 7, RSpec 3
 - DB
@@ -411,7 +411,7 @@
   - Ruby 3.x
 - ライブラリ
   - jQuery, Knockout.js, Chart.js
-- フレームワーク
+- フレームワーク・ライブラリ
   - Bootstrap 3
   - Rails 6, RSpec 3
 - DB
@@ -461,7 +461,7 @@
   - Ruby 3.x
 - ライブラリ
   - jQuery, C3.js, Knockout.js, webpack
-- フレームワーク
+- フレームワーク・ライブラリ
   - Bootstrap 3
   - Rails 6, RSpec 3
 - DB
@@ -522,7 +522,7 @@
   - jQuery, Font Awesome
   - Asciidoctor
   - AWS SDK, Logback, JUnit 5
-- フレームワーク
+- フレームワーク・ライブラリ
   - Vue.js 2, Bootstrap 4
   - Rails 6, RSpec 3
 - DB
@@ -582,7 +582,7 @@
   - Windows 10
 - 言語
   - PHP 8
-- フレームワーク
+- フレームワーク・ライブラリ
   - Laravel 8 (Blade)
 - ライブラリ
   - jQuery
@@ -808,7 +808,7 @@ PM開発者間で「言った言わない問題」が発生したため、チャ
   - Windows 10
 - 言語
   - Python 3.5
-- フレームワーク
+- フレームワーク・ライブラリ
   - Django2, Bootstrap3
 - DB
   - MySQL, InfluxDB
@@ -897,7 +897,7 @@ PM開発者間で「言った言わない問題」が発生したため、チャ
   - Windows 10
 - 言語
   - C#
-- フレームワーク
+- フレームワーク・ライブラリ
   - ASP.NET MVC 5, Bootstrap3
 - DB
   - Oracle
@@ -943,7 +943,7 @@ PM開発者間で「言った言わない問題」が発生したため、チャ
   - Mac OS X
 - 言語
   - PHP7
-- フレームワーク
+- フレームワーク・ライブラリ
   - Symfony 2.7, PHPUnit, Bootstrap3
 - DB
   - PostgreSQL
@@ -1053,7 +1053,7 @@ PM開発者間で「言った言わない問題」が発生したため、チャ
   - Red Hat, Windows 7
 - 言語
   - Ruby
-- フレームワーク
+- フレームワーク・ライブラリ
   - Ruby on Rails 4
 - その他
   - Git(GitLab), Vagrant + VirtualBox
@@ -1093,7 +1093,7 @@ PM開発者間で「言った言わない問題」が発生したため、チャ
   - CentOS 6, Windows 10
 - 言語
   - Ruby
-- フレームワーク
+- フレームワーク・ライブラリ
   - Ruby on Rails 4, Bootstrap3
 - その他
   - Git(GitHub), MySQL, Redmine, Slack, Vagrant + VirtualBox
@@ -1243,7 +1243,7 @@ PM開発者間で「言った言わない問題」が発生したため、チャ
   - CentOS 6, Windows 7
 - 言語
   - HTML5+CSS3, Java, JavaScript(ES5)
-- フレームワーク
+- フレームワーク・ライブラリ
   - Struts
 - その他
   - GIMP2, PostgreSQL, Word&Excel
