@@ -30,6 +30,7 @@
 ## 目次
 
 - [基本情報](#基本情報)
+  - [SNS・ブログ](#snsブログ)
   - [スキル](#スキル)
   - [強み](#強み)
   - [やったことはないが興味があるもの](#やったことはないが興味があるもの)
@@ -62,13 +63,15 @@
 
 ## 基本情報
 
-|key|value|
-|---|-----|
-|Name|野良ぬこ, Nora Nuko, noranuko13|
-|Twitter|[@noranyanko13](https://twitter.com/noranyanko13)|
-|Zenn|[野良 ぬこ](https://zenn.dev/noranuko13)|
-|Blog|[技術にゃんこの混ぜご飯](https://noranuko13.hatenadiary.jp)<br>[健康でにゃんこ的なそこそこの生活](https://noranuko13.hatenablog.com)|
-|Qiita|[野良 ぬこ](https://qiita.com/noranuko13)|
+### SNS・ブログ
+
+- ハンドルネーム
+  - `野良ぬこ`, `noranuko13`
+- リンク一覧
+  - [Twitter(X)](https://x.com/noranyanko13)
+  - [Zenn](https://zenn.dev/noranuko13)
+  - [技術にゃんこの混ぜご飯](https://noranuko13.hatenadiary.jp)
+  - [Qiita](https://qiita.com/noranuko13)
 
 
 ### スキル
