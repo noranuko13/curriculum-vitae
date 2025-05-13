@@ -112,19 +112,6 @@
 
 ### スキル
 
-- CSSフレームワーク
-  - Bruma
-
-- 静的サイトジェネレータ
-  - Gatsby, (Next.js)
-
-- データベース
-  - DynamoDB
-
-- コミュニケーションツール
-  - Slack
-    - IBM CloudとNode-REDによるBot作成
-
 - バージョン管理
   - Git
     - git-flow, GitHub Flow, GitLab Flow, GitFeatureFlow
