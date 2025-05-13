@@ -131,16 +131,6 @@
     - プロジェクトに合ったFlowの構築
     - 初心者対応, マージ事故の処理
 
-- IDE
-  - Android Studio
-
-- スクリプトエンジン
-  - 吉里吉里2
-  - LiveMaker
-  - NScripter, NScripter2
-    - Luaによる拡張, システムカスタマイズ
-  - ティラノスクリプト
-
 - 環境構築
   - Ansible
 
