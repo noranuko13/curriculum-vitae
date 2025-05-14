@@ -6,7 +6,6 @@
 # 3. Execute the following shell script.
 #    docker compose run --rm cv /bin/bash /curriculum-vitae/toc.sh
 
-version: '3'
 services:
   cv:
     container_name: cv
