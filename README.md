@@ -84,7 +84,6 @@
 - リンク一覧
   - [Twitter(X)](https://x.com/noranyanko13)
   - [Zenn](https://zenn.dev/noranuko13)
-  - [技術にゃんこの混ぜご飯](https://noranuko13.hatenadiary.jp)
   - [Qiita](https://qiita.com/noranuko13)
 
 ### 自然言語
