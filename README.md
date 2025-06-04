@@ -1199,8 +1199,6 @@ PM開発者間で「言った言わない問題」が発生したため、チャ
 ※セキュリティ・認証周りで詰んだらサポート終了。
 
 - [noranuko13/hatena-theme-base](https://github.com/noranuko13/hatena-theme-base)
-- [【はてなブログ】GitHubにプッシュしたらCircleCIを使ってテーマストアを自動更新する - 技術にゃんこの混ぜご飯](https://noranuko13.hatenadiary.jp/entry/2019/06/27/083119)
-- [【はてなブログ】テーマストア自動更新ツールをアップデートする - 技術にゃんこの混ぜご飯](https://noranuko13.hatenadiary.jp/entry/2021/04/24/142603)
 
 #### プロジェクト概要
 
@@ -1386,7 +1384,6 @@ PM開発者間で「言った言わない問題」が発生したため、チャ
 ### 2021年07月-至る現在 Reactチュートリアル
 
 - [noranuko13/tic-tac-toe-reactjs](https://github.com/noranuko13/tic-tac-toe-reactjs)
-- [【自己学習】Reactチュートリアルを飽きるまでちまちまいじるだけ - 技術にゃんこの混ぜご飯](https://noranuko13.hatenadiary.jp/entry/2023/07/14/000000)
 
 React.jsの基本的な使い方を学べる公式の学習コンテンツ。
 
