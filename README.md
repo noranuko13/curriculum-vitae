@@ -1172,7 +1172,6 @@ PM開発者間で「言った言わない問題」が発生したため、チャ
 ### 2023年10月-至る現在 Re:VIEWのラッパーライブラリ作成
 
 - [noranuko13/librarian](https://github.com/noranuko13/librarian)
-- [【個人開発】装丁と紙束をRe_VIEWで製本してくれる司書さんを作った - 技術にゃんこの混ぜご飯](https://noranuko13.hatenadiary.jp/entry/2024/02/09/221944)
 
 #### プロジェクト概要
 
@@ -1289,7 +1288,6 @@ PM開発者間で「言った言わない問題」が発生したため、チャ
 #### プロジェクト概要
 
 - [noranuko13/mpmm](https://github.com/noranuko13/mpmm)
-- [【個人開発】ミャクミャク様っぽい何かを描ける何かを作った - 技術にゃんこの混ぜご飯](https://noranuko13.hatenadiary.jp/entry/2023/06/10/000000)
 
 キャンバス上に描画した部品をドラッグ&ドロップで動かしてミャクミャク様が書ける。
 
