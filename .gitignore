@@ -1,6 +1,2 @@
 ### JetBrains.gitignore
 .idea/
-
-
-### Projects.gitignore
-.env

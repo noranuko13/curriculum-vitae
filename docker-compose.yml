@@ -1,16 +1,8 @@
-# 1. Generating GitHub access tokens.
-#    https://github.com/settings/personal-access-tokens
-# 2. Set the generated token in .env to GITHUB_TOKEN
-#   cp .env.example .env
-#   GITHUB_TOKEN=github_pat_...
-# 3. Execute the following shell script.
-#    docker compose run --rm cv /bin/bash /curriculum-vitae/toc.sh
+# docker compose run --rm cv /bin/bash /curriculum-vitae/toc.sh
 
 services:
   cv:
     container_name: cv
     build: .
-    env_file:
-      - .env
     volumes:
       - .:/curriculum-vitae
